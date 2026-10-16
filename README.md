@@ -27,11 +27,9 @@ A collection of C++17 networking examples demonstrating TCP and UDP communicatio
 ```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --parallel
-git status
 
-## الخطوة 2: أضف ملفات GitHub
 
-أنشئ GitHub Actions:
+:
 
 ```bash
 mkdir -p .github/workflows
